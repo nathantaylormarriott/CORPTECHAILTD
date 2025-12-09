@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PulseAI Consultancy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <div class="logo">PulseAI</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Solutions</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="primary-btn">Book a Strategy Call</button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="hero-content">
+        <p class="eyebrow">AI Consultancy • Automation • Security • Growth</p>
+        <h1>Deploy AI that ships outcomes, not just models.</h1>
+        <p class="lead">We design secure, automated systems that eliminate manual work, protect your data, and amplify your brand—fast.</p>
+        <div class="hero-actions">
+          <button class="primary-btn">Launch a project</button>
+          <button class="ghost-btn" id="scrollCue">See how we work</button>
+        </div>
+        <div class="metrics">
+          <div>
+            <span class="stat">120+</span>
+            <span class="label">automations delivered</span>
+          </div>
+          <div>
+            <span class="stat">98%</span>
+            <span class="label">security coverage</span>
+          </div>
+          <div>
+            <span class="stat">3.4x</span>
+            <span class="label">avg. marketing ROI</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="grid">
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+        </div>
+        <div class="floating-card" data-animate>
+          <p class="card-title">Automation pipeline</p>
+          <div class="pill">LLM + RPA</div>
+          <div class="pill">SOC2-ready</div>
+          <p class="card-metric">↓ 42% cost</p>
+          <p class="card-description">Elastic orchestration that scales ops with guardrails.</p>
+        </div>
+        <div class="floating-card secondary" data-animate>
+          <p class="card-title">Threat map</p>
+          <p class="card-metric">24/7</p>
+          <p class="card-description">Continuous detection across cloud, SaaS, and endpoints.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip" aria-hidden="true">
+      <div class="marquee">
+        <span>Automation Sprints</span>
+        <span>Security Hardening</span>
+        <span>Growth Intelligence</span>
+        <span>Data Infrastructure</span>
+        <span>Model Governance</span>
+        <span>Marketing AI</span>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-head">
+        <p class="eyebrow">Why PulseAI</p>
+        <h2>Go from idea to impact in weeks, safely.</h2>
+        <p class="lead">We blend AI engineering, cybersecurity, and GTM to deliver automation that is measurable, secure, and on-brand.</p>
+      </div>
+      <div class="pillars">
+        <article class="pillar" data-animate>
+          <h3>Automation</h3>
+          <p>End-to-end workflows built with LLMs, APIs, and RPA—removing repetitive work and freeing teams to focus on strategy.</p>
+        </article>
+        <article class="pillar" data-animate>
+          <h3>Cybersecurity</h3>
+          <p>Secure-by-default architecture, continuous monitoring, and compliance-ready controls that keep every AI surface safe.</p>
+        </article>
+        <article class="pillar" data-animate>
+          <h3>Marketing AI</h3>
+          <p>Personalized campaigns, predictive insights, and content engines that turn data into demand without sacrificing trust.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-head">
+        <p class="eyebrow">Engagements</p>
+        <h2>Modular offerings that stack together.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card" data-animate>
+          <div class="tag">Automation</div>
+          <h3>Workflow sprints</h3>
+          <p>Rapidly design, validate, and deploy automated flows across CRM, support, and finance.</p>
+          <ul>
+            <li>Process mapping and ROI modeling</li>
+            <li>LLM prompt systems with human-in-the-loop</li>
+            <li>API + RPA orchestration</li>
+          </ul>
+        </article>
+        <article class="service-card" data-animate>
+          <div class="tag">Security</div>
+          <h3>AI security hardening</h3>
+          <p>Threat modeling, red teaming, and guardrail tuning to keep models compliant and safe.</p>
+          <ul>
+            <li>Model abuse and data leakage tests</li>
+            <li>Policy, RBAC, and audit pipeline</li>
+            <li>Incident readiness and 24/7 monitoring</li>
+          </ul>
+        </article>
+        <article class="service-card" data-animate>
+          <div class="tag">Marketing</div>
+          <h3>Growth intelligence</h3>
+          <p>AI-driven segmentation, content generation, and analytics that scale acquisition.</p>
+          <ul>
+            <li>Predictive lead scoring and routing</li>
+            <li>Automated multivariate testing</li>
+            <li>Brand-safe content systems</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-head">
+        <p class="eyebrow">Selected projects</p>
+        <h2>Proof over promises.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project" data-animate>
+          <p class="tag">Fintech</p>
+          <h3>Fraud operations automation</h3>
+          <p>LLM triage and RPA reduced manual reviews by 68% while keeping SOC2 compliance intact.</p>
+          <p class="result">Result: 4.1x faster case resolution</p>
+        </article>
+        <article class="project" data-animate>
+          <p class="tag">SaaS</p>
+          <h3>Security-first AI copilots</h3>
+          <p>Embedded role-based guardrails and observability into product copilots to prevent data leakage.</p>
+          <p class="result">Result: 98% sensitive data coverage</p>
+        </article>
+        <article class="project" data-animate>
+          <p class="tag">Ecommerce</p>
+          <h3>Predictive marketing engine</h3>
+          <p>Unified customer data with AI-driven content to launch hyper-personalized campaigns.</p>
+          <p class="result">Result: 3.7x uplift in qualified pipeline</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="cta-content" data-animate>
+        <p class="eyebrow">Ready to deploy</p>
+        <h2>Bring us a process, we'll automate it securely.</h2>
+        <p class="lead">Get a 30-minute blueprint session with our architects.</p>
+      </div>
+      <form class="cta-form" id="contact" data-animate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" placeholder="name@company.com" required />
+        </div>
+        <div class="form-row">
+          <label for="interest">Priority</label>
+          <select id="interest" name="interest">
+            <option>Automation sprint</option>
+            <option>Security hardening</option>
+            <option>Marketing AI</option>
+            <option>Full-stack engagement</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">What do you want to build?</label>
+          <textarea id="message" name="message" rows="3" placeholder="Share goals, systems, and timelines"></textarea>
+        </div>
+        <button type="submit" class="primary-btn full">Book strategy call</button>
+        <p class="helper">We respond within one business day. No spam—ever.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">PulseAI</div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#services">Solutions</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footnote">Built for teams that want secure automation without compromising brand trust.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
